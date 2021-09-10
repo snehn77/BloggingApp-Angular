@@ -1,0 +1,68 @@
+
+.blog-posts{
+    background-color: #1f2833;
+    color: #c5c6c7;
+  }
+  
+.card{
+    background-color: #1f2833;
+}
+  
+  /* Main Blog*/
+  
+  
+img{
+    border: 2px solid aqua;
+}
+  
+.aside-heading{
+    border-left: 3px solid aqua;
+}
+  
+.author p{
+    font-size: 0.9rem;
+}
+
+hr{
+    background-color: aqua;
+}
+  
+.post{
+    background-color:#1f2833;
+    color: white;
+}
+  
+.new-post{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #1f2833;
+    color: white;
+    margin-right: -5rem;
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+  
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+    color: aqua;
+} 
+
+.error-page{
+  color: red;
+  text-align: center;
+  font-size: 100px;
+}
+
+.error-body{
+  margin-bottom: 220px;
+}
+
+.error-msg{
+  color: red;
+  text-align: center;
+  font-size: 15px;
+}
+  

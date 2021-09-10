@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg ">
+  <div class="container">
+    <a class = 'navbar-brand' routerLink = '/home'> {{pageTitle}} </a>
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a routerLink = '/home'>
+            <span class="fa fa-home"></span>
+            Home
+        </a>
+    </li>
+    </ul>
+  </div>
+</nav>
+
+<div>
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="footer py-4">
+  <div class="w-100 text-center credits">
+    <p>Made by Sneh Nandu &copy; 2021. All rights reserved.</p>
+  </div>
+</footer>
